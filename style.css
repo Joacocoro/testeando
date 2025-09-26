@@ -7,7 +7,7 @@ body {
 
 .container-fluid{
     margin: auto;
-    background-image: url(/Biblioteca/img/dark-bl.svg);
+    background-image: url(Biblioteca/img/dark-bl.svg);
     background-color: #7b64fa;
 }
 
@@ -35,7 +35,7 @@ body {
 
 /* seccion inicio */
 .img-inicio {
-    background-image: url(/Biblioteca/img/Concierto.jpg);
+    background-image: url(Biblioteca/img/Concierto.jpg);
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@ body {
 /* seccion quienes somos*/
 #quienes {
     min-height: 70vh;
-    background-image: url(/Biblioteca/img/dark-br.svg);
+    background-image: url(Biblioteca/img/dark-br.svg);
     background-color: #4a7ac2;
     padding-top: 2%;
 }
@@ -78,19 +78,19 @@ body {
 
 /* busqueda de imagenes para carousel  */
 .imagencarousel1 {
-    background-image: url(/Biblioteca/img/Bajo.jpg);
+    background-image: url(Biblioteca/img/Bajo.jpg);
 }
 
 .imagencarousel2 {
-    background-image: url(/Biblioteca/img/Guitarra.jpg);
+    background-image: url(Biblioteca/img/Guitarra.jpg);
 }
 
 .imagencarousel3 {
-    background-image: url(/Biblioteca/img/amplificador.jpg);
+    background-image: url(Biblioteca/img/amplificador.jpg);
 }
 
 .imagencarousel4 {
-    background-image: url(/Biblioteca/img/ukelele.jpg);
+    background-image: url(Biblioteca/img/ukelele.jpg);
 }
 
 
@@ -120,7 +120,7 @@ body {
 }
 
 .borde-card {
-    background-image: url(/Biblioteca/img/dark-br.svg);
+    background-image: url(Biblioteca/img/dark-br.svg);
     border: 3px solid #0893ff;
     border-radius: 5px;
 
@@ -177,7 +177,7 @@ iframe {
 /* Footer */
 
 footer {
-    background-image: url(/Biblioteca/img/dark-tl.svg);
+    background-image: url(Biblioteca/img/dark-tl.svg);
 }
 
 footer i {
@@ -217,7 +217,7 @@ footer i:hover {
 .product-container {
     align-items: flex-start;
     font-family: Arial, sans-serif;
-    background-image: url(/Biblioteca/img/dark-tl.svg);
+    background-image: url(Biblioteca/img/dark-tl.svg);
     background-color: #83d3c9;
     border-radius: 15px;
 }
