@@ -1,0 +1,309 @@
+body {
+    background-image: url(/Biblioteca/img/playa.jpg);
+}
+
+/* Decorado y animacion del navbar */
+
+
+.container-fluid{
+    margin: auto;
+    background-image: url(/Biblioteca/img/dark-bl.svg);
+    background-color: #7b64fa;
+}
+
+.navbar {
+    background-color: #7b64fa;
+}
+
+
+.nav-item{
+    color: black;
+    font-family: sans-serif;
+    font-size: 21px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.nav-item:hover{
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+/* seccion inicio */
+.img-inicio {
+    background-image: url(/Biblioteca/img/Concierto.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* colores, tipologia de letra y alineacion del titulo */
+.title {
+    padding: 3%;
+    text-align: center;
+    color: #84c0ee;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6px;
+    font-weight: 600;
+    text-shadow: 2px 3px black;
+}
+
+/* texto bajo el titulo */
+.texto {
+    margin: 30px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+/* seccion quienes somos*/
+#quienes {
+    min-height: 70vh;
+    background-image: url(/Biblioteca/img/dark-br.svg);
+    background-color: #4a7ac2;
+    padding-top: 2%;
+}
+
+.carousel-item {
+    border: 2px solid #0893ff;
+    height: 100%;
+    min-height: 800px;
+    background: no-repeat center center scroll;
+    border-radius: 15px;
+    -webkit-background-size: cover; 
+}
+
+/* busqueda de imagenes para carousel  */
+.imagencarousel1 {
+    background-image: url(/Biblioteca/img/Bajo.jpg);
+}
+
+.imagencarousel2 {
+    background-image: url(/Biblioteca/img/Guitarra.jpg);
+}
+
+.imagencarousel3 {
+    background-image: url(/Biblioteca/img/amplificador.jpg);
+}
+
+.imagencarousel4 {
+    background-image: url(/Biblioteca/img/ukelele.jpg);
+}
+
+
+/* seccion calidad */
+
+#Calidad {
+    height: auto;
+    width: auto;
+
+}
+
+.productos-link {
+    text-decoration: none;
+}
+
+.title-card {
+    color: #0893ff;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.card-text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.borde-card {
+    background-image: url(/Biblioteca/img/dark-br.svg);
+    border: 3px solid #0893ff;
+    border-radius: 5px;
+
+}
+
+.card-animacion:hover{
+    transform: translateY(-3%);
+    transition: 0.3s;
+}
+
+/* profesionales */
+
+#profesionales {
+    height: auto;
+    background-color: #6f519c;
+    padding-bottom: 30px;
+}
+
+.card-img-top {
+    background-position: center;
+    object-fit: cover; /* propiedad para ajustar el contenido para que ocupe el espacio disponible*/
+    width: 90%;
+}
+
+.nombre-pro {
+    font-size: 1.6rem;
+    color: #6f519c;
+}
+
+@media (min-width: 800px) {
+    #profesionales .card-img-top {
+        height: 70vh;
+    }
+}
+
+@media (max-width :768px) {
+    #profesionales .card-img-top {
+        height: 100vh;
+    }
+} 
+
+/* donde encontrarnos */
+
+#donde{
+    padding-bottom: 2%;
+}
+
+iframe {
+    width: 80%;
+    height: auto;
+    aspect-ratio: 16/9;  /* propiedad para mantener la prporcion en pantalla */
+}
+
+/* Footer */
+
+footer {
+    background-image: url(/Biblioteca/img/dark-tl.svg);
+}
+
+footer i {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer i:hover {
+    font-size: 20px;
+    border: solid 2px white;
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: transparent;
+    padding: 1%;
+}
+
+.mensajeria {
+    padding-bottom: 3%;
+}
+
+.mensajeria button{
+    border-radius: 5px;
+    padding: 4px 15px;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+/* Seccion venta de productos */
+
+/* Contenedor principal */
+.product-container {
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    background-image: url(/Biblioteca/img/dark-tl.svg);
+    background-color: #83d3c9;
+    border-radius: 15px;
+}
+
+/* Estilo para la sección de imagen y galería */
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.main-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+/* Estilo para la información del producto */
+.product-info {
+    max-width: 500px;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price-list {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.product-price-list p {
+    margin: 5px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* alneacion de los productos para la vista en computadora */
+@media(min-width: 800px) {
+    .product-container {
+        display: flex;
+    }
+    #productos1{
+    padding-top: 10%;
+}
+
+}
+
+/* diseño responsivo para vista de celular */
+@media (max-width: 768px) {
+    .main-image {
+        height: 50vh;
+        width: auto;
+    }
+    .product-container{
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 6%;
+    }
+    #productos2{
+    padding-bottom: 10%;
+}
+    .product-description{
+        padding-right: 5%;
+        font-size: 22px;
+    }
+    
+}
+
+/* boton de comprar */
+.button-container .button{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer; /* con esa funcion el cursos se muestra en forma de puntero si se pasa por encima */
+    text-decoration: none;
+}
+
